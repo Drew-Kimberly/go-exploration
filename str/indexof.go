@@ -1,5 +1,8 @@
 package str
 
+// IndexOf returns the starting index of the provided "needle" string within the "haystack" string.
+// The index of the first occurrence of the needle will be returned.
+// If the needle cannot be found in its entirety, -1 will be returned.
 func IndexOf(haystack string, needle string) int {
 	M := len(needle)
 
